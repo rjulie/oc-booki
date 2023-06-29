@@ -7,6 +7,7 @@
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
   --filter-bg-color: #DEEBFF;
+  --filter-border-color: #D9D9D9;
   --standard-color: #000000;
 }
 
@@ -64,6 +65,14 @@ h1 {
   font-size: 22px;
 }
 
+h2 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
 p {
   font-size: 16px;
 }
@@ -102,6 +111,7 @@ nav {
 .search-form {
   display: flex;
   margin: 30px 0;
+  height: 50px;
 }
 
 #pin {
@@ -116,9 +126,9 @@ nav {
   display: flex;
 }
 
-#search-button{
+.search-button{
   background-color: var(--main-color);
-  padding: 18px;
+  padding: 16px;
   color: white;
   text-align: center;
   border-radius: 0px 15px	15px 0px;
@@ -128,7 +138,7 @@ nav {
 }
 
 #search-input {
-  padding: 18px;
+  padding: 0 16px;
   color:var(--standard-color);
   text-align: center;
   font-size: 18px;
@@ -138,6 +148,46 @@ nav {
   border-left: 0px;
   border-right: 0px;
   flex-grow: 1;
+}
+
+/****** Filters ***********/
+
+.filter-tags {
+  display: flex;
+  margin: 24px 0;
+}
+
+.filter-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 24px;
+  margin-right: 16px;
+  border-radius: 25px;
+  border: 2px solid var(--filter-border-color) ;
+}
+
+.filter-icon {
+  padding-right: 8px;
+  font-size: 24px;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+}
+
+#info-icon {
+  font-size: 12px;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  margin-right: 8px;
+  border: 1px solid var(--filter-border-color) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /****** Hebergements And Populaires ***********/
