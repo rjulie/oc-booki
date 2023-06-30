@@ -52,7 +52,7 @@ body {
   font-weight: 700;
 }
 
-.neutralStar {
+.neutral-star {
   color: var(--main-bg-color)
 }
 
@@ -84,7 +84,7 @@ nav {
 }
 
 #logo{
-  margin: 30px 0;
+  margin: 32px 0;
   height: 19px;
 }
 
@@ -108,9 +108,17 @@ nav {
 
 /****** Search card ***********/
 
+.search-card .title h1 {
+  margin: 32px 0 8px 0;
+}
+
+.search-card .title p {
+  margin-top: 0px;
+}
+
 .search-form {
   display: flex;
-  margin: 30px 0;
+  margin: 32px 0;
   height: 50px;
 }
 
@@ -180,6 +188,7 @@ nav {
 .results {
   display: flex;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 #info-icon {
@@ -221,18 +230,21 @@ nav {
 }
 
 /****** Hebergements ***********/
-.accomodations {
-    width: 65%;
+.accommodations {
+    width: 100%;
 }
 
 .accommodation-cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 16px;
 }
-.accomodation-cards .card {
+.accommodation-cards .card {
   display: flex;
   margin-top: 33px;
+  width: 268px;
 }
 
 .accommodation-cards img {
@@ -241,17 +253,20 @@ nav {
   border-radius: 20px 20px 0 0;
 }
 
-.accommodation-cards .card-content {
-  width: 67%;
-  padding-left: 15px;
+.accommodation-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
 }
 
-.accommodation-cards .card {
-  width: 268px;
+.accommodation-cards .card-content {
+  padding-left: 15px;
+}
+
+.accommodation-cards .card-content p {
+  font-size: 14px;
+  padding: 8px 0 8px 0;
 }
 
 /****** Populaires ***********/
@@ -316,11 +331,11 @@ nav {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
