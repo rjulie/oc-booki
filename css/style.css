@@ -546,8 +546,8 @@ footer {
   }
 
   #search-input {
-    position: relative;
-    width: 100%;
+    width: 204px;
+    margin-right: -10px;
   }
 
   .search-button-icon {
@@ -557,8 +557,6 @@ footer {
     text-align: center;
     border-radius: 15px;
     border:  solid var(--main-color);
-    position: relative;
-    left: -10px;
   }
 
   .search-button {
