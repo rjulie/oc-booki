@@ -15,16 +15,16 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+      <img src="./images/logo/Booki.png" alt="Logo Booki bleu" id="logo">
+      <div class="links-nav">
+        <a href="#" class="link-nav">Hébergements</a>
+        <a href="#" class="link-nav">Activités</a>
+      </div>
+    </nav>
+  </header>
   <div class="main-container">
-    <header>
-      <nav>
-        <img src="./images/logo/Booki.png" alt="Logo Booki bleu" id="logo">
-        <div class="links-nav">
-          <a href="#" class="link-nav">Hébergements</a>
-          <a href="#" class="link-nav">Activités</a>
-        </div>
-      </nav>
-    </header>
     <main>
       <div class="search-card">
         <div class="title">
@@ -36,9 +36,7 @@
           <form action="" method="post" id="search-inputs">
             <input type="text" city="Marseille" placeholder="Marseille, France" id="search-input">
             <input type="submit" value="Rechercher" class="search-button">
-            <!-- <button type="submit" class="search-button">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button> -->
+            <button type="submit" class="search-button-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
           </form>
         </div>
         <div class="filters-info">
@@ -264,13 +262,28 @@
             </article>
           </div>
         </section>
-      <div>
-
-      </div>
     </main>
-    <footer>
-    </footer>
   </div>
+  <footer>
+    <div class="footer-infos">
+      <div class="footer-column">
+        <h3>À propos</h3>
+        <p>Fonctionnement du site</p>
+        <p>Conditions générales </p>
+        <p>Données et confidentialité</p>
+      </div>
+      <div class="footer-column">
+        <h3>Nos hébergements</h3>
+        <p>Charte qualité</p>
+        <p>Proposer votre hôtel</p>
+      </div>
+      <div class="footer-column">
+        <h3>Assistance</h3>
+        <p>Centre d’aide</p>
+        <p>Nous contacter</p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
