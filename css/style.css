@@ -305,7 +305,7 @@ nav {
   padding: 16px 0 16px 0;
 }
 
-.populaires-cards .card {
+.populaires-cards a {
   display: flex;
 }
 
