@@ -387,28 +387,6 @@ footer {
 /* XLarge devices (laptops, desktops, more than 1900px) */
 @media screen and (min-width: 1900.02px)  {
 
-  /****** Hebergements And Populaires ***********/
-
-  /* .accommodations {
-    width: 65%;
-  }
-
-  .accommodation-cards .card {
-    width: 32%;
-  }
-
-  .accommodation-cards img {
-    height: 124px;
-}
-
-  .populaires-cards {
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
-    margin-top: 32px;
-    padding: 0;
-  } */
-
   /****** Activities ***********/
 
   .activities-cards img {
@@ -545,9 +523,8 @@ footer {
     font-weight: bolder;
   }
 
-  #search-input {
-    width: 204px;
-    margin-right: -10px;
+  #search-inputs {
+    width: 100%;
   }
 
   .search-button-icon {
@@ -557,6 +534,7 @@ footer {
     text-align: center;
     border-radius: 15px;
     border:  solid var(--main-color);
+    margin-left: -10px;
   }
 
   .search-button {
